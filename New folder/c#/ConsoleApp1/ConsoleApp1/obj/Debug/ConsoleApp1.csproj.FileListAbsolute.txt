@@ -1,0 +1,12 @@
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\Apache.Ignite.Core.dll
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\Apache.Ignite.exe
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\Apache.Ignite.exe.config
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\bin\Debug\Apache.Ignite.Core.xml
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\C#pro\ignite_demo\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache

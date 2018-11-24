@@ -1,0 +1,199 @@
+<ion-header>
+  <ion-navbar color="dark">
+      <button ion-button menuToggle="left" start>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content color="dark">
+  <ion-item-group>
+      <ion-item-divider color="dark">Ticket #F7154310 <ion-icon name="print" item-right></ion-icon> <ion-icon name="camera" item-right></ion-icon></ion-item-divider>
+    
+    </ion-item-group>
+
+  <ion-grid class="secondry-content">
+      <ion-row>
+
+          <ion-col>
+              <ion-item class="data.properties['Load_Type'].class">
+                  <ion-label >{{data.properties["Load_Type"].lable}}</ion-label>
+                  <ion-input type="data.properties['Load_Type'].type"></ion-input>
+                  <ion-select interface="popover">
+                      <ion-option value="10">10</ion-option>
+                      <ion-option value="20">20</ion-option>
+                  </ion-select>
+              </ion-item>
+                
+                <ion-item class="data.properties['Load_Type'].class">
+                  <ion-label fixed>{{data.properties["Company Name"].lable}}</ion-label>
+                  <ion-input type="data.properties['Company Name'].type"></ion-input>
+                </ion-item>
+                
+                <ion-item class="data.properties['Consigner'].class">
+                  <ion-label fixed>{{data.properties["Consigner"].lable}}</ion-label>
+                  <ion-input type="data.properties['Consigner'].type"></ion-input>
+                </ion-item>
+                
+
+                <ion-item class="data.properties['Dagerous Godds'].class">
+                    <ion-label>{{data.properties["Dagerous Godds"].lable}}</ion-label>
+                    <ion-input type="data.properties['Dagerous Godds'].type"></ion-input>
+                    <ion-select interface="popover">
+                        <ion-option value="10">10</ion-option>
+                        <ion-option value="20">20</ion-option>
+                    </ion-select>
+                </ion-item>
+
+                <ion-item class="data.properties['Take Selection'].class">
+                    <ion-label>{{data.properties["Take Selection"].lable}}</ion-label>
+                    <ion-input type="data.properties['Take Selection'].type"></ion-input>
+                    <ion-select interface="popover">
+                        <ion-option value="10">10</ion-option>
+                        <ion-option value="20">20</ion-option>
+                    </ion-select>
+                </ion-item>               
+          </ion-col>
+      </ion-row>
+      
+      <ion-row>
+          <ion-col>            
+              <ion-item class="secondry-content">
+                  <ion-label>Ticket Type...</ion-label>
+                  <ion-select interface="popover">
+                      <ion-option value="10">10</ion-option>
+                      <ion-option value="20">20</ion-option>
+                  </ion-select>
+              </ion-item>
+          </ion-col>
+          <ion-col>            
+              <ion-item class="secondry-content">
+                  <ion-label>Product Type...</ion-label>
+                  <ion-select interface="popover">
+                      <ion-option value="10">10</ion-option>
+                      <ion-option value="20">20</ion-option>
+                  </ion-select>
+              </ion-item>
+          </ion-col>             
+        </ion-row>
+        <ion-row>
+            <ion-col>            
+                <ion-item class="secondry-content">
+                    <ion-label>Arrival Time</ion-label>
+                    <ion-icon name="time" item-right></ion-icon>
+                </ion-item>
+            </ion-col>
+            <ion-col>            
+                <ion-item class="secondry-content">
+                    <ion-label>Start Time</ion-label>
+                    <ion-icon name="time" item-right></ion-icon>
+                </ion-item>
+            </ion-col>             
+          </ion-row>
+          <ion-row>
+              <ion-col>            
+                  <ion-item class="secondry-content">
+                      <ion-label>Start Guage</ion-label>
+                      <ion-select interface="popover">
+                          <ion-option value="10">10</ion-option>
+                          <ion-option value="20">20</ion-option>
+                      </ion-select>
+                  </ion-item>
+              </ion-col>
+              <ion-col>            
+                  <ion-item class="secondry-content">
+                      <ion-label>Finish Gauge</ion-label>
+                      <ion-select interface="popover">
+                          <ion-option value="10">10</ion-option>
+                          <ion-option value="20">20</ion-option>
+                      </ion-select>
+                  </ion-item>
+              </ion-col>             
+            </ion-row>
+            <ion-row>
+                <ion-col>            
+                    <ion-item class="secondry-content">
+                        <ion-label>Est. Volume</ion-label>
+                        <ion-select interface="popover">
+                            <ion-option value="10">10</ion-option>
+                            <ion-option value="20">20</ion-option>
+                        </ion-select>
+                    </ion-item>
+                </ion-col>
+                <ion-col>            
+                    <ion-item class="secondry-content">
+                        <ion-label>Free Water</ion-label>
+                        <ion-icon name="time" item-right></ion-icon>
+                    </ion-item>
+                </ion-col>             
+              </ion-row>
+              <ion-row>
+                  <ion-col>            
+                      <ion-item class="secondry-content">
+                          <ion-label>Finish Time</ion-label>
+                          <ion-icon name="time" item-right></ion-icon>
+                      </ion-item>
+                  </ion-col>
+                  <ion-col>            
+                      <ion-item class="secondry-content">
+                          <ion-label> Departure Time</ion-label>
+                          <ion-icon name="time" item-right></ion-icon>
+                      </ion-item>
+                  </ion-col>             
+                </ion-row>
+  <ion-item class="secondry-content">
+      <ion-label floating>Comments...</ion-label>
+      <ion-textarea elasticTextArea [(ngModel)]="description2">
+      </ion-textarea>
+    </ion-item>
+      
+
+        <ion-item-group>
+          <ion-item-divider color="dark">Safety</ion-item-divider>
+          <!-- <ion-item>Angola</ion-item>
+          <ion-item>Argentina</ion-item> -->
+        </ion-item-group>
+
+        <ion-item class="secondry-content">
+            <ion-label>Hoses, fittings in good working order</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+          <ion-item class="secondry-content">
+              <ion-label>Ensure trailer dump value/drip tray is closed</ion-label>
+              <ion-checkbox></ion-checkbox>
+            </ion-item>
+            <ion-item class="secondry-content">
+                <ion-label>Strictly monitor trailer volume recording system</ion-label>
+                <ion-checkbox></ion-checkbox>
+              </ion-item>
+              <ion-item class="secondry-content">
+                  <ion-label>Trailer vent line closed before existing lease</ion-label>
+                  <ion-checkbox></ion-checkbox>
+                </ion-item>
+                <ion-item class="secondry-content">
+                    <ion-label>Tank valves, bull plugs secure and in place after loading</ion-label>
+                    <ion-checkbox></ion-checkbox>
+                  </ion-item>
+              <ion-col>
+                  <ion-item class="secondry-content">
+                      <ion-label>Driver's signature...</ion-label>
+                      <ion-select interface="popover">
+                          <ion-option value="10">10</ion-option>
+                          <ion-option value="20">20</ion-option>
+                      </ion-select>
+                    </ion-item>                     
+              </ion-col>
+
+
+              <ion-item class="secondry-content">
+                  <ion-label floating>Comments...</ion-label>
+                  <ion-textarea elasticTextArea [(ngModel)]="description2">
+                  </ion-textarea>
+                </ion-item>
+                <button ion-button icon-only clear outline item-right (click)="increaseProduct()">
+                    <ion-icon></ion-icon>
+                  </button>
+                <button ion-button color="primary">Secondary</button>
+  </ion-grid>
+</ion-content>
